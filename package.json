@@ -4,8 +4,7 @@
   "description": "Benchmark tests to check some of the most famous reactive libraries",
   "main": "index.js",
   "scripts": {
-    "test": "node index",
-    "run": "node index"
+    "test": "node index"
   },
   "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
   "license": "MIT",
@@ -16,7 +15,8 @@
   "dependencies": {
     "baconjs": "^0.7.84",
     "flux": "^2.1.1",
-    "rx": "^4.1.0",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "riot-observable": "^3.0.0-alpha.1",
+    "rx": "^4.1.0"
   }
 }
