@@ -1,7 +1,7 @@
 {
   "name": "reactive-libs-bench",
   "version": "1.0.0",
-  "description": "Benchmark test to check the most famous reactive libraries",
+  "description": "Benchmark tests to check some of the most famous reactive libraries",
   "main": "index.js",
   "scripts": {
     "test": "node index",
