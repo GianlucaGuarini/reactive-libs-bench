@@ -1,0 +1,21 @@
+{
+  "name": "reactive-libs-bench",
+  "version": "1.0.0",
+  "description": "Benchmark test to check the most famous reactive libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index",
+    "run": "node index"
+  },
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "benchmark": "^2.1.0",
+    "chai": "^3.5.0"
+  },
+  "dependencies": {
+    "baconjs": "^0.7.84",
+    "flux": "^2.1.1",
+    "redux": "^3.5.2"
+  }
+}
