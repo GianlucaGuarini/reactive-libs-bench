@@ -1,18 +1,15 @@
 const Benchmark = require('benchmark'),
   suite = new Benchmark.Suite(),
-  rxBench = require('./lib/rx'),
-  reduxBench = require('./lib/redux'),
-  baconBench = require('./lib/bacon'),
-  nodeEventEmitter = require('./lib/node-event-emitter'),
-  riotObservableBench = require('./lib/riot-observable'),
-  vanillaBench = require('./lib/vanilla')
+  tests = {
+    rx: require('./lib/rx'),
+    redux: require('./lib/redux'),
+    baconjs: require('./lib/bacon'),
+    'node-event-emitter': require('./lib/node-event-emitter'),
+    'riot-observable': require('./lib/riot-observable'),
+    vanilla: require('./lib/vanilla')
+  }
 
-reduxBench(suite)
-nodeEventEmitter(suite)
-rxBench(suite)
-riotObservableBench(suite)
-baconBench(suite)
-vanillaBench(suite)
+Object.keys(tests).forEach((name) => tests[name](suite))
 
 suite
   .on('cycle', function(event) {
