@@ -1,8 +1,10 @@
 const Benchmark = require('benchmark'),
   suite = new Benchmark.Suite(),
+  rxBench = require('./lib/rx'),
   reduxBench = require('./lib/redux'),
   baconBench = require('./lib/bacon')
 
+rxBench(suite)
 reduxBench(suite)
 baconBench(suite)
 
