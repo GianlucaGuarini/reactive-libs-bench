@@ -18,6 +18,6 @@
     "redux": "^3.5.2",
     "riot-observable": "^3.0.0-alpha.1",
     "rx": "^4.1.0",
-    "riotux": "^1.0.61"
+    "riotux": "^1.0.62"
   }
 }
