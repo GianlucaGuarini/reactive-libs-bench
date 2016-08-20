@@ -3,13 +3,14 @@
 
 Results on a MacBook Pro 10.11.5 Node v6.2.0
 ```
-rx x 28,701 ops/sec ±2.38% (71 runs sampled)
-redux x 27,524 ops/sec ±2.41% (76 runs sampled)
-riotux x 23,530 ops/sec ±2.17% (73 runs sampled)
-baconjs x 27,170 ops/sec ±2.27% (79 runs sampled)
-node-event-emitter x 29,193 ops/sec ±2.28% (75 runs sampled)
-riot-observable x 26,010 ops/sec ±2.21% (75 runs sampled)
-vanilla x 30,955 ops/sec ±2.56% (75 runs sampled)
+rx x 33,331 ops/sec ±2.29% (77 runs sampled)
+redux x 31,947 ops/sec ±2.08% (80 runs sampled)
+riotux x 26,146 ops/sec ±1.48% (76 runs sampled)
+baconjs x 30,106 ops/sec ±2.23% (80 runs sampled)
+evee x 34,638 ops/sec ±2.24% (77 runs sampled)
+node-event-emitter x 34,133 ops/sec ±2.36% (78 runs sampled)
+riot-observable x 34,057 ops/sec ±2.36% (80 runs sampled)
+vanilla x 35,509 ops/sec ±2.20% (79 runs sampled)
 ```
 
 ## How to run the tests

@@ -5,6 +5,7 @@ const Benchmark = require('benchmark'),
     redux: require('./lib/redux'),
     riotux: require('./lib/riotux.js'),
     baconjs: require('./lib/bacon'),
+    evee: require('./lib/evee'),
     'node-event-emitter': require('./lib/node-event-emitter'),
     'riot-observable': require('./lib/riot-observable'),
     vanilla: require('./lib/vanilla')

@@ -9,15 +9,16 @@
   "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
   "license": "MIT",
   "devDependencies": {
-    "benchmark": "^2.1.0",
+    "benchmark": "^2.1.1",
     "chai": "^3.5.0"
   },
   "dependencies": {
-    "baconjs": "^0.7.84",
+    "baconjs": "^0.7.85",
+    "evee": "^1.1.0",
     "flux": "^2.1.1",
     "redux": "^3.5.2",
-    "riot-observable": "^3.0.0-alpha.1",
-    "rx": "^4.1.0",
-    "riotux": "^1.0.62"
+    "riot-observable": "^3.0.0-alpha.2",
+    "riotux": "^1.0.62",
+    "rx": "^4.1.0"
   }
 }
