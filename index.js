@@ -3,7 +3,6 @@ const Benchmark = require('benchmark'),
   tests = {
     rx: require('./lib/rx'),
     redux: require('./lib/redux'),
-    riotux: require('./lib/riotux.js'),
     baconjs: require('./lib/bacon'),
     evee: require('./lib/evee'),
     'node-event-emitter': require('./lib/node-event-emitter'),
