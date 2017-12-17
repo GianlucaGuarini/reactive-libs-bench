@@ -2,6 +2,7 @@ const Benchmark = require('benchmark'),
   suite = new Benchmark.Suite(),
   tests = {
     icaro: require('./lib/icaro'),
+    erre: require('./lib/erre'),
     rx: require('./lib/rx'),
     redux: require('./lib/redux'),
     baconjs: require('./lib/bacon'),
